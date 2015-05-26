@@ -6,10 +6,6 @@ if (!active_module(dirname($_SERVER["SCRIPT_NAME"]))) fatalError('Модуль �
 $Msg = $db->query("SELECT * FROM mini_chat");
 $countMsg = $db->NumRows($Msg);
 
-
-//$num_msg = $db->query("SELECT * FROM settings");
-//$num = $db->fetch($num_msg);
-
 #устанавливаем кол-во выводимых собщений на странице
 $countViewMsg = (clear($settingsSystem['num_msg_chat'])) ? clear($settingsSystem['num_msg_chat']) : 10;
 
