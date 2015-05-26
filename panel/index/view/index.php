@@ -29,4 +29,5 @@ if (!$_SESSION['userAdmin']) die('Доступ закрыт');
 <a href="modules">Управление модулями</a><br>
 <a href="settings">Настройки системы</a><br>
 </div>
+
 <? } ?>
