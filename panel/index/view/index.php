@@ -27,7 +27,6 @@ if (!$_SESSION['userAdmin']) die('Доступ закрыт');
 <div class="r1_golov">Системные настройки</div>
 <div class="r1">
 <a href="modules">Управление модулями</a><br>
-<a href="sql">Выполнить SQL-запрос</a><br>
 <a href="settings">Настройки системы</a><br>
 </div>
 <? } ?>
