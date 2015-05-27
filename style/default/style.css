@@ -1,0 +1,143 @@
+body {
+background: #E9EAED;
+color:#3E3E3E;
+font-family: Tahoma;
+font-size:14px;
+margin:auto;
+max-width: 500px;
+}
+
+a:link, a:active, a:visited {
+color: #3B5998;
+cursor: pointer;
+text-decoration: none;
+}
+
+a:hover, a:focus {
+color: #3B5998;
+text-decoration: underline;
+}
+
+img {
+vertical-align: middle;
+border-style: none;
+}
+
+
+
+textarea {
+        font-family : "Cuprum", Geneva, Arial, Helvetica, sans-serif; 
+        font-size : 14px; 
+	min-width: 95%;
+	max-width: 95%;
+	border: #ddd solid 1px;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.25) inset;
+	margin-bottom: 5px;
+        margin-top: 3px;
+	padding: 5px; }
+
+select, input[type="file"], input[type="text"], input[type="password"], input[type="email"] {
+        font-family : "Cuprum", Geneva, Arial, Helvetica, sans-serif; 
+        font-size : 14px; 
+	border: #ddd solid 1px;
+	background: #fff;
+	box-shadow: 0 1px 1px #fff;
+	margin-bottom: 3px;
+        margin-top: 3px;
+	border-radius: 2px;
+	padding: 5px; }
+
+
+
+
+.r1 a {
+/*background: url(imgs/user1.png) no-repeat center left;*/
+display: inline-block;
+margin: 0;
+padding: 0 0 0 5px;
+text-decoration: none;
+line-height:23px;
+}
+
+r5.a {
+color: #050;
+display: inline-block;
+margin: 0;
+padding: 0 0 0 20px;
+text-decoration: none;
+}
+
+div {
+margin: 0;
+padding: 8px;
+}
+img {
+vertical-align: middle;
+}
+.foot {
+text-align: center;
+color : #fff;
+background-color: #3B5998;
+border-bottom: 1px solid #133783;
+padding: 5px;
+}
+
+.foot a {
+color: #fff;
+}
+
+.head {
+color : #000;
+background-color: #3B5998;
+border-bottom: 1px solid #133783;
+height : 72px;
+padding: 5px;
+}
+
+
+.r1 {
+background-color : #fff;
+background-repeat : repeat-x;
+border: 1px solid #D3D6DB;
+padding: 5px;
+color: gray;
+font-weight: normal;
+line-height: 15px;
+}
+.r5 {
+background: #fff url(imgs/menu.png) repeat-x bottom;
+}
+.r1_golov {
+color: #6A7480;
+font-size: 12px;
+font-weight: bold;
+background: #F6F7F8;
+border: 1px solid #D3D6DB;
+border-bottom: none;
+margin-top: 10px;
+height: 20px;
+line-height: 20px;
+}
+
+.r1_golov a {
+    
+}
+
+
+input[type="submit"], button {
+        font-family : "Cuprum", Geneva, Arial, Helvetica, sans-serif; 
+        font-size : 14px; 
+	cursor: pointer;
+	background: #3B5998;
+	border-radius: 2px;
+	margin-left: 1px;
+	color: #fff;
+	border: none;
+	padding: 6px 18px;
+        background: -o-linear-gradient(top, #525f89 100%,#424e78 100%);
+	background: -webkit-linear-gradient(top, #525f89 100%,#424e78 100%);
+}
+
+input[type="submit"]:hover, button:hover {
+        background: #717EAB; }

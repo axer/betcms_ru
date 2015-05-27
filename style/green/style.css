@@ -1,0 +1,66 @@
+body {
+background: url(imgs/body.png) repeat;
+color: #333;
+font-family: Verdana;
+font-size: 14px;
+margin: 0 auto;
+padding: 0;
+max-width:430px;
+}
+.r1 a {
+background: url(imgs/icon.png) no-repeat center left;
+color: #050;
+display: inline-block;
+margin: 0;
+padding: 0 0 0 20px;
+text-decoration: none;
+line-height:25px;
+}
+
+r5.a {
+color: #050;
+display: inline-block;
+margin: 0;
+padding: 0 0 0 20px;
+text-decoration: none;
+}
+
+div {
+margin: 0;
+padding: 8px;
+}
+img {
+vertical-align: middle;
+}
+.c {
+background: #000 url(imgs/foot.png) repeat-x top;
+color: #fff;
+}
+.head {
+background: #fff url(imgs/head.png) repeat-x bottom;
+padding: 0;
+}
+
+
+.r1 {
+background: #fff url(imgs/menu.png) repeat-x bottom;
+}
+.r5 {
+background: #fff url(imgs/menu.png) repeat-x bottom;
+}
+.r1_golov {
+background: #004800 url(imgs/title.png) repeat-x top;
+color: #fff;
+}
+
+.r1_golov a {
+    color: #fff;
+}
+
+.error {
+    background: #f00;
+}
+
+.info {
+    background: #0f0;
+}
